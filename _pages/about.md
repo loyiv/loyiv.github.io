@@ -17,11 +17,38 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am **Youwei Liu**, an undergraduate at **Central South University** (Data Science Excellence Talent Program). I am currently a Research Assistant at **The Hong Kong Polytechnic University (PolyU NLP Lab)**, focusing on long-horizon agent planning by integrating LLM agents, embodied agents, reinforcement learning, and world models. 
+I am **Youwei Liu**, an undergraduate at **Central South University**. I am currently a Research Assistant at **The Hong Kong Polytechnic University (PolyU NLP Lab)**, focusing on long-horizon agent planning by integrating LLM agents, embodied agents, reinforcement learning, and world models. I collaborate with **[Jian Wang](https://iwangjian.github.io/)** on agent. Thanks to him for his generous guidance and support.
 
+# 📖 Education
+
+- **Sep 2023 – 2027 (expected)** &nbsp; 
+  <img src="images/csu-logo.png" alt="CSU" style="height:18px; vertical-align:middle; margin-right:6px;">
+  **[Central South University](https://en.csu.edu.cn/)** — Changsha, China  
+  *Undergraduate Student*  
+  - Major: Data Science Excellence Talent Program  
+  - GPA: 3.75/4.00  
+  - Coursework: Convex Optimization, Machine Learning, Deep Learning, Multivariate Statistics, etc.
+
+# 💻 Research Experience
+
+- **Apr 2025 – Present** &nbsp; 
+  <img src="images/polyunlp.png" alt="PolyU NLP" style="height:18px; vertical-align:middle; margin-right:6px;">
+  **[The Hong Kong Polytechnic University](https://www.polyu.edu.hk/en/)** · **[PolyU NLP Lab](https://polyunlp.github.io/)** — Hong Kong, China  
+  *Research Assistant*  
+  - Conducting research on long-term task planning for agents by integrating LLM agents, embodied agents, reinforcement learning, and world models.  
+  - Supervision: Prof. Maggie
+
+- **Jul 2024** &nbsp; 
+  <img src="images/cuhk.png" alt="CUHK(SZ)" style="height:18px; vertical-align:middle; margin-right:6px;">
+  **[CUHK (Shenzhen)](https://www.cuhk.edu.cn/en)** &nbsp; &nbsp;
+  <img src="images/KAUST.png" alt="KAUST" style="height:18px; vertical-align:middle; margin-right:6px;">
+  **[KAUST](https://www.kaust.edu.sa/en/)** — Shenzhen, China  
+  *Visiting Student*  
+  - Supervised by Jinchao Xu; worked on multi-scale feature transmission across token, embedding, and contextual layers in Large Language Models.
 
 # 🔥 News
-- *2026.01*: &nbsp; **Imagine-then-Plan (ITP)** released as an **arXiv preprint**. [[arXiv]](https://arxiv.org/abs/2601.08955) · [[PDF]](https://arxiv.org/pdf/2601.08955.pdf) · [[GitHub]](YOUR_ITP_GITHUB_URL) · 🤗 [[Hugging Face]](https://huggingface.co/papers/2601.08955)
+- *2026.01*: &nbsp; **Imagine-then-Plan (ITP)** released as an **arXiv preprint**. 
+  [[arXiv]](https://arxiv.org/abs/2601.08955) · [[PDF]](https://arxiv.org/pdf/2601.08955.pdf) · [[GitHub]](YOUR_ITP_GITHUB_URL) · 🤗 [[Hugging Face]](https://huggingface.co/papers/2601.08955)
 
 # 📝 Publications 
 
@@ -49,12 +76,5 @@ I am **Youwei Liu**, an undergraduate at **Central South University** (Data Scie
 
 # 🎖 Honors and Awards
 
-
-# 📖 Educations
-
-
 # 💬 Invited Talks
-
-
-# 💻 Internships
 
