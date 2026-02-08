@@ -23,7 +23,7 @@ I am **Youwei Liu**, an undergraduate at **Central South University**. I am curr
 
 - **Sep 2023 – 2027 (expected)** &nbsp;
   **[Central South University](https://en.csu.edu.cn/)** 
-  <img src="images/csu-logo.png" alt="CSU" style="height:36px; vertical-align:middle; margin-left:8px;">
+  <img src="images/csu-logo .png" alt="CSU" style="height:36px; vertical-align:middle; margin-left:8px;">
   — Changsha, China  
   *Undergraduate Student*  
   - Major: Data Science Excellence Talent Program  
