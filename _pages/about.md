@@ -21,25 +21,23 @@ I am **Youwei Liu**, an undergraduate at **Central South University**. I am curr
 
 # 📖 Education
 
-- **Sep 2023 – 2027 (expected)** &nbsp;
-  **[Central South University](https://en.csu.edu.cn/)** 
-  <img src="images/csu-logo .png" alt="CSU" style="height:36px; vertical-align:middle; margin-left:8px;">
-  *Undergraduate Student*  
-  - Major: Data Science Excellence Talent Program  
+- <img src="images/csu-logo .png" alt="CSU" style="height:36px; vertical-align:middle; margin-right:8px;">
+  **Sep 2023 – 2027 (expected)** &nbsp; **[Central South University](https://en.csu.edu.cn/)** — Changsha, China
+  - *Undergraduate Student*
+  - Major: Data Science Excellence Talent Program
 
 # 💻 Research Experience
 
-- **Apr 2025 – Present** &nbsp;
-  **[PolyU NLP Lab](https://polyunlp.github.io/)** 
-  <img src="images/polyunlp.png" alt="PolyU NLP" style="height:36px; vertical-align:middle; margin-left:8px;">
-  *Research Assistant*  
+- <img src="images/polyunlp.png" alt="PolyU NLP" style="height:36px; vertical-align:middle; margin-right:8px;">
+  **Apr 2025 – Present** &nbsp; **[PolyU NLP Lab](https://polyunlp.github.io/)** — Hong Kong, China
+  - *Research Assistant*
+  - Working on long-horizon agent planning by integrating LLM agents, embodied agents, reinforcement learning, and world models.
 
-- **Jul 2024** &nbsp;
-  **[CUHK](https://www.cuhk.edu.cn/en)&[KAUST](https://www.kaust.edu.sa/en/)** 
-  <img src="images/cuhk.png" alt="CUHK(SZ)" style="height:36px; vertical-align:middle; margin-left:8px;">
-  &nbsp; &nbsp;
-  <img src="images/KAUST.png" alt="KAUST" style="height:36px; vertical-align:middle; margin-left:8px;">
-  *Visiting Student*  
+- <img src="images/cuhk.png" alt="CUHK(SZ)" style="height:36px; vertical-align:middle; margin-right:8px;">
+  <img src="images/KAUST.png" alt="KAUST" style="height:36px; vertical-align:middle; margin-right:8px;">
+  **Jul 2024** &nbsp; **[CUHK (Shenzhen)](https://www.cuhk.edu.cn/en) & [KAUST](https://www.kaust.edu.sa/en/)** — Shenzhen, China
+  - *Visiting Student*
+  - Supervised by Jinchao Xu; research on multi-scale feature transmission across token, embedding, and contextual layers in LLMs.
 
 # 🔥 News
 - *2026.01*: &nbsp; **Imagine-then-Plan (ITP)** released as an **arXiv preprint**. 
