@@ -24,25 +24,21 @@ I am **Youwei Liu**, an undergraduate at **Central South University**. I am curr
 - **Sep 2023 – 2027 (expected)** &nbsp;
   **[Central South University](https://en.csu.edu.cn/)** 
   <img src="images/csu-logo .png" alt="CSU" style="height:36px; vertical-align:middle; margin-left:8px;">
-  — Changsha, China  
   *Undergraduate Student*  
   - Major: Data Science Excellence Talent Program  
 
 # 💻 Research Experience
 
 - **Apr 2025 – Present** &nbsp;
-  **[The Hong Kong Polytechnic University](https://www.polyu.edu.hk/en/)** · **[PolyU NLP Lab](https://polyunlp.github.io/)** 
+  **[PolyU NLP Lab](https://polyunlp.github.io/)** 
   <img src="images/polyunlp.png" alt="PolyU NLP" style="height:36px; vertical-align:middle; margin-left:8px;">
-  — Hong Kong, China  
   *Research Assistant*  
 
 - **Jul 2024** &nbsp;
-  **[CUHK (Shenzhen)](https://www.cuhk.edu.cn/en)** 
+  **[CUHK](https://www.cuhk.edu.cn/en)&[KAUST](https://www.kaust.edu.sa/en/)** 
   <img src="images/cuhk.png" alt="CUHK(SZ)" style="height:36px; vertical-align:middle; margin-left:8px;">
   &nbsp; &nbsp;
-  **[KAUST](https://www.kaust.edu.sa/en/)** 
   <img src="images/KAUST.png" alt="KAUST" style="height:36px; vertical-align:middle; margin-left:8px;">
-  — Shenzhen, China  
   *Visiting Student*  
 
 # 🔥 News
