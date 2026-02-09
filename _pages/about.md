@@ -68,6 +68,13 @@ I am **Youwei Liu**, an undergraduate at **Central South University**. I am curr
 </div>
 
 # 🎖 Honors and Awards
+- **Outstanding Paper (Oral)** — “Shenzhen Cup” Math Modeling Challenge <span style="float:right;">Aug 2024</span>
+- **First Prize**, National Undergraduate Math Modeling Competition <span style="float:right;">Sep 2024</span>
+- **First Prize**, National Undergraduate Market Research Analysis (CP Cup) <span style="float:right;">May 2024</span>
+- **Second Prize**, CSU Mathematical Modeling Competition <span style="float:right;">Jun 2024</span>
+- **National-Level**, Innovation and Entrepreneurship Training Award <span style="float:right;">Apr 2024</span>
+- **National Second Prize**, Service Outsourcing Innovation and Entrepreneurship Competition <span style="float:right;">May 2025</span>
+- **Honorable Mention**, Mathematical Contest in Modeling (MCM), COMAP-USA <span style="float:right;">Jan 2025</span>
 
-# 💬 Invited Talks
+
 
