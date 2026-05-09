@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am **Youwei Liu**, an undergraduate at **Central South University**. I am currently a Research Assistant at **The Hong Kong Polytechnic University (PolyU NLP Lab)**, focusing on long-horizon agent planning by integrating LLM agents, embodied agents, reinforcement learning, and world models. I collaborate with **[Jian Wang](https://iwangjian.github.io/)** on agent. Thanks to him for his generous guidance and support.
+I am **Youwei Liu**, an undergraduate at **Central South University**. I am currently a Research Assistant at **The Hong Kong Polytechnic University (PolyU NLP Lab)**, supervised by **[Prof. Maggie Wenjie Li](https://www4.comp.polyu.edu.hk/~cswjli/)**, focusing on long-horizon agent planning by integrating LLM agents, embodied agents, reinforcement learning, and world models. I collaborate with **[Jian Wang](https://iwangjian.github.io/)** on agent. Thanks to him for his generous guidance and support.
 
 # 📖 Education
 
