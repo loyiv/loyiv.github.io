@@ -42,10 +42,7 @@ I am **Youwei Liu**, an undergraduate at **Central South University**. I am curr
 # 🔥 News
 
 - *2026.06*: &nbsp; **Co-Evolving World Models and Agent Policies (COMAP)** released as an **arXiv preprint**.  
-  [[PDF]](https://arxiv.org/pdf/2606.02372.pdf) · [[Code]](https://github.com/loyiv/CoMAP)
-
 - *2026.01*: &nbsp; **Imagine-then-Plan (ITP)** released as an **arXiv preprint**.  
-  [[PDF]](https://arxiv.org/pdf/2601.08955.pdf) · [[Code]](https://github.com/loyiv/ITP)
 
 # 📝 Publications
 
