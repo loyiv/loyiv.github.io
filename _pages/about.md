@@ -1,4 +1,3 @@
-```markdown
 ---
 permalink: /
 title: ""
@@ -133,4 +132,3 @@ I am **Youwei Liu**, an undergraduate at **Central South University**. I am curr
 - **National-Level**, Innovation and Entrepreneurship Training Award <span style="float:right;">Apr 2024</span>
 - **National Second Prize**, Service Outsourcing Innovation and Entrepreneurship Competition <span style="float:right;">May 2025</span>
 - **Honorable Mention**, Mathematical Contest in Modeling (MCM), COMAP-USA <span style="float:right;">Jan 2025</span>
-```
