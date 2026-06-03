@@ -65,7 +65,6 @@ I am **Youwei Liu**, an undergraduate at **Central South University**. I am curr
 - Training-free and RL-trained variants; strong results on representative agent benchmarks.
 </div>
 </div>
-```html
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
