@@ -1,3 +1,4 @@
+```markdown
 ---
 permalink: /
 title: ""
@@ -40,57 +41,91 @@ I am **Youwei Liu**, an undergraduate at **Central South University**. I am curr
   - Supervised by Jinchao Xu; research on multi-scale feature transmission across token, embedding, and contextual layers in LLMs.
 
 # 🔥 News
-- *2026.01*: &nbsp; **Imagine-then-Plan (ITP)** released as an **arXiv preprint**. 
-  [[arXiv]](https://arxiv.org/abs/2601.08955) · [[PDF]](https://arxiv.org/pdf/2601.08955.pdf) · [[GitHub]](YOUR_ITP_GITHUB_URL) · 🤗 [[Hugging Face]](https://huggingface.co/papers/2601.08955)
 
-# 📝 Publications 
+- *2026.06*: &nbsp; **Co-Evolving World Models and Agent Policies (COMAP)** released as an **arXiv preprint**.  
+  [[PDF]](https://arxiv.org/pdf/2606.02372.pdf) · [[Code]](https://github.com/loyiv/CoMAP)
 
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
-      <div class="badge">arXiv 2026</div>
-      <img src='images/itp_workflow.png' alt="ITP workflow" width="100%">
-    </div>
-  </div>
-  <div class='paper-box-text' markdown="1">
+- *2026.01*: &nbsp; **Imagine-then-Plan (ITP)** released as an **arXiv preprint**.  
+  [[PDF]](https://arxiv.org/pdf/2601.08955.pdf) · [[Code]](https://github.com/loyiv/ITP)
 
-[**Imagine-then-Plan: Agent Learning from Adaptive Lookahead with World Models**](https://arxiv.org/abs/2601.08955)
+# 📝 Publications
 
-**Youwei Liu**, Jian Wang, Hanlin Wang, Beichen Guo, Wenjie Li
+<div style="clear: both;"></div>
 
-[arXiv](https://arxiv.org/abs/2601.08955) &nbsp;|&nbsp; [PDF](https://arxiv.org/pdf/2601.08955.pdf) &nbsp;|&nbsp; [GitHub](YOUR_ITP_GITHUB_URL) &nbsp;|&nbsp; 🤗 [Hugging Face](https://huggingface.co/papers/2601.08955)
-
-- Unified framework for agent learning via **lookahead imagination** with a learned world model.
-- **Adaptive lookahead** trades off ultimate goal and task progress to choose imagination horizon dynamically.
-- Training-free and RL-trained variants; strong results on representative agent benchmarks.
-</div>
-</div>
-<div class='paper-box'>
+<div class='paper-box' style="clear: both; overflow: hidden; margin-bottom: 2rem;">
   <div class='paper-box-image'>
     <div>
       <div class="badge">arXiv 2026</div>
       <img src='images/comap.png' alt="COMAP workflow" width="100%">
     </div>
   </div>
-  <div class='paper-box-text' markdown="1">
+  <div class='paper-box-text'>
 
-[**Co-Evolving World Models and Agent Policies for LLM Agents**](https://arxiv.org/abs/2606.02372)
+    <p>
+      <a href="https://arxiv.org/abs/2606.02372">
+        <strong>Co-Evolving World Models and Agent Policies for LLM Agents</strong>
+      </a>
+    </p>
 
-**Youwei Liu**, Jian Wang, Hanlin Wang, Wenjie Li
+    <p>
+      <strong>Youwei Liu</strong>, Jian Wang, Hanlin Wang, Wenjie Li
+    </p>
 
-[arXiv](https://arxiv.org/abs/2606.02372) &nbsp;|&nbsp; [PDF](https://arxiv.org/pdf/2606.02372.pdf) &nbsp;|&nbsp; [GitHub](https://github.com/loyiv/CoMAP) &nbsp;|&nbsp; 🤗 [Hugging Face](https://huggingface.co/papers/2606.02372)
+    <p>
+      <a href="https://arxiv.org/pdf/2606.02372.pdf">PDF</a>
+      &nbsp;|&nbsp;
+      <a href="https://github.com/loyiv/CoMAP">Code</a>
+    </p>
 
-- Closed-loop framework for **co-evolving world models and agent policies**.
-- Uses **future-aware reflection** to refine agent actions with imagined next-state feedback.
-- Improves both task success and world-model prediction quality across agent benchmarks.
+    <ul>
+      <li>Closed-loop framework for <strong>co-evolving world models and agent policies</strong>.</li>
+      <li>Uses <strong>future-aware reflection</strong> to refine agent actions with imagined next-state feedback.</li>
+      <li>Improves both task success and world-model prediction quality across agent benchmarks.</li>
+    </ul>
 
   </div>
 </div>
 
+<div style="clear: both;"></div>
 
+<div class='paper-box' style="clear: both; overflow: hidden; margin-bottom: 2rem;">
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">arXiv 2026</div>
+      <img src='images/itp_workflow.png' alt="ITP workflow" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text'>
 
+    <p>
+      <a href="https://arxiv.org/abs/2601.08955">
+        <strong>Imagine-then-Plan: Agent Learning from Adaptive Lookahead with World Models</strong>
+      </a>
+    </p>
+
+    <p>
+      <strong>Youwei Liu</strong>, Jian Wang, Hanlin Wang, Beichen Guo, Wenjie Li
+    </p>
+
+    <p>
+      <a href="https://arxiv.org/pdf/2601.08955.pdf">PDF</a>
+      &nbsp;|&nbsp;
+      <a href="https://github.com/loyiv/ITP">Code</a>
+    </p>
+
+    <ul>
+      <li>Unified framework for agent learning via <strong>lookahead imagination</strong> with a learned world model.</li>
+      <li><strong>Adaptive lookahead</strong> trades off ultimate goal and task progress to choose imagination horizon dynamically.</li>
+      <li>Training-free and RL-trained variants; strong results on representative agent benchmarks.</li>
+    </ul>
+
+  </div>
+</div>
+
+<div style="clear: both;"></div>
 
 # 🎖 Honors and Awards
+
 - **Outstanding Paper (Oral)** — “Shenzhen Cup” Math Modeling Challenge <span style="float:right;">Aug 2024</span>
 - **First Prize**, National Undergraduate Math Modeling Competition <span style="float:right;">Sep 2024</span>
 - **First Prize**, National Undergraduate Market Research Analysis (CP Cup) <span style="float:right;">May 2024</span>
@@ -98,6 +133,4 @@ I am **Youwei Liu**, an undergraduate at **Central South University**. I am curr
 - **National-Level**, Innovation and Entrepreneurship Training Award <span style="float:right;">Apr 2024</span>
 - **National Second Prize**, Service Outsourcing Innovation and Entrepreneurship Competition <span style="float:right;">May 2025</span>
 - **Honorable Mention**, Mathematical Contest in Modeling (MCM), COMAP-USA <span style="float:right;">Jan 2025</span>
-
-
-
+```
