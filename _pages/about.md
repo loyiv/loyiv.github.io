@@ -63,9 +63,33 @@ I am **Youwei Liu**, an undergraduate at **Central South University**. I am curr
 - Unified framework for agent learning via **lookahead imagination** with a learned world model.
 - **Adaptive lookahead** trades off ultimate goal and task progress to choose imagination horizon dynamically.
 - Training-free and RL-trained variants; strong results on representative agent benchmarks.
+</div>
+</div>
+```html
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">arXiv 2026</div>
+      <img src='images/comap.png' alt="COMAP workflow" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
 
+[**Co-Evolving World Models and Agent Policies for LLM Agents**](https://arxiv.org/abs/2606.02372)
+
+**Youwei Liu**, Jian Wang, Hanlin Wang, Wenjie Li
+
+[arXiv](https://arxiv.org/abs/2606.02372) &nbsp;|&nbsp; [PDF](https://arxiv.org/pdf/2606.02372.pdf) &nbsp;|&nbsp; [GitHub](https://github.com/loyiv/CoMAP) &nbsp;|&nbsp; 🤗 [Hugging Face](https://huggingface.co/papers/2606.02372)
+
+- Closed-loop framework for **co-evolving world models and agent policies**.
+- Uses **future-aware reflection** to refine agent actions with imagined next-state feedback.
+- Improves both task success and world-model prediction quality across agent benchmarks.
+
+  </div>
 </div>
-</div>
+
+
+
 
 # 🎖 Honors and Awards
 - **Outstanding Paper (Oral)** — “Shenzhen Cup” Math Modeling Challenge <span style="float:right;">Aug 2024</span>
