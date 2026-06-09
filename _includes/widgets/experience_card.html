@@ -20,7 +20,13 @@
                                         {% endif %}
                                     </div>
                                     <div class="media-body">
-                                        <div class="profile-entry-title">{{ item.name }}</div>
+                                        <div class="profile-entry-title">
+                                            {% if item.url %}
+                                            <a href="{{ item.url }}" target="_blank" class="text-body">{{ item.name }}</a>
+                                            {% else %}
+                                            {{ item.name }}
+                                            {% endif %}
+                                        </div>
                                         <div class="text-muted small">{{ item.dept }}</div>
                                         <div class="profile-entry-meta profile-entry-meta-left small">
                                             <span>{{ item.position }}</span>
@@ -52,10 +58,16 @@
                                             {% endif %}
                                         </div>
                                         <div class="profile-entry-main">
-                                            <div class="profile-entry-title">{{ item.name }}</div>
+                                            <div class="profile-entry-title">
+                                                {% if item.url %}
+                                                <a href="{{ item.url }}" target="_blank" class="text-body">{{ item.name }}</a>
+                                                {% else %}
+                                                {{ item.name }}
+                                                {% endif %}
+                                            </div>
                                             <div class="text-muted small">{{ item.dept }}</div>
                                         </div>
-                                        <div class="profile-entry-side small">
+                                        <div class="profile-entry-side">
                                             <div class="profile-entry-meta small">
                                                 <span>{{ item.position }}</span>
                                                 <span class="profile-entry-date"><em>{{ item.date }}</em></span>
