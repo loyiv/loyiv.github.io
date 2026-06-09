@@ -38,6 +38,7 @@ education:
 experience:
 - name: PolyU NLP Lab
   logo: /assets/images/badges/polyunlp.png
+  logo_size: wide
   dept: The Hong Kong Polytechnic University
   position: Research Assistant
   date: Apr. 2025 - Present

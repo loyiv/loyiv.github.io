@@ -87,15 +87,24 @@ h1, h2, h3, h4, h5, h6,
 
 .profile-logo-wrap {
     display: flex;
-    min-width: 48px;
+    min-width: 66px;
     padding-top: 0.15rem;
 }
 
 .profile-entry-logo {
-    width: 42px;
-    height: 42px;
+    width: 52px;
+    height: 52px;
     object-fit: contain;
     border-radius: 0.45rem;
+}
+
+.profile-entry-logo-wide {
+    width: 66px;
+}
+
+.profile-entry-logo-multi {
+    width: 38px;
+    height: 38px;
 }
 
 .profile-entry-title {
