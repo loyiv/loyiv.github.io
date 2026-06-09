@@ -81,14 +81,31 @@ h1, h2, h3, h4, h5, h6,
     border-top: 1px solid rgba(0, 0, 0, 0.06);
 }
 
-.profile-entry-hero {
-    align-items: center;
+.profile-split-row {
+    align-items: stretch;
+}
+
+.profile-split-col {
+    display: flex;
+}
+
+.profile-split-col > .profile-timeline-section {
+    width: 100%;
+}
+
+.profile-experience-col-wrap {
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.profile-entry-education {
+    align-items: flex-start;
+    padding-top: 0.95rem;
     padding-bottom: 1.05rem;
 }
 
 .profile-entry-panel {
     height: 100%;
-    padding: 0.85rem 0;
+    padding: 0.8rem 0;
 }
 
 .profile-logo-wrap {
@@ -97,8 +114,8 @@ h1, h2, h3, h4, h5, h6,
     padding-top: 0.15rem;
 }
 
-.profile-logo-wrap-hero {
-    min-width: 86px;
+.profile-logo-wrap-education {
+    min-width: 76px;
 }
 
 .profile-entry-logo {
@@ -112,9 +129,9 @@ h1, h2, h3, h4, h5, h6,
     width: 66px;
 }
 
-.profile-entry-logo-hero {
-    width: 72px;
-    height: 72px;
+.profile-entry-logo-education {
+    width: 62px;
+    height: 62px;
     border-radius: 50%;
 }
 
@@ -152,17 +169,13 @@ h1, h2, h3, h4, h5, h6,
     margin-top: 0.1rem;
 }
 
-.profile-experience-section {
-    border-top: 1px solid rgba(0, 0, 0, 0.08);
-    padding-top: 1.1rem;
+.profile-experience-list {
+    display: grid;
+    gap: 0.15rem;
 }
 
-.profile-experience-grid {
-    row-gap: 0.25rem;
-}
-
-.profile-experience-col + .profile-experience-col {
-    border-left: 1px solid rgba(0, 0, 0, 0.06);
+.profile-experience-item + .profile-experience-item {
+    border-top: 1px solid rgba(0, 0, 0, 0.06);
 }
 
 .profile-awards-section-full h6 {
@@ -253,9 +266,11 @@ div.lazy {
 }
 
 @media (max-width: 991.98px) {
-    .profile-experience-col + .profile-experience-col {
+    .profile-experience-col-wrap {
         border-left: 0;
         border-top: 1px solid rgba(0, 0, 0, 0.06);
+        margin-top: 1rem;
+        padding-top: 1rem;
     }
 
     .profile-awards-list {
