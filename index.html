@@ -31,5 +31,9 @@ navbar_title: Home
         title='<i class="fas fa-star"></i> Selected Publications'
         %}
         {% endif %}
+
+        {% if site.data.profile.awards %}
+            {% include widgets/awards_card.html %}
+        {% endif %}
     </div>
 </div>

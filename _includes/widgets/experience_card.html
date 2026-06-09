@@ -2,83 +2,65 @@
     <div class="col">
         <div class="card border-0 shadow-sm bg-white">
             <div class="card-body p-4">
-                <div class="row profile-overview-row">
-                    <div class="col-lg-7">
-                        {% if site.data.profile.education %}
-                        <section class="profile-timeline-section">
-                            <h6>Education</h6>
-                            <ul class="list-unstyled mb-0">
-                                {% for item in site.data.profile.education %}
-                                <li class="media profile-entry">
-                                    <div class="profile-logo-wrap mr-3">
-                                        {% if item.logos %}
-                                            {% for logo in item.logos %}
-                                            <img src="{{ logo | relative_url }}" alt="{{ item.name }}" class="profile-entry-logo profile-entry-logo-multi{% unless forloop.first %} ml-1{% endunless %}">
-                                            {% endfor %}
-                                        {% elsif item.logo %}
-                                            <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" class="profile-entry-logo{% if item.logo_size %} profile-entry-logo-{{ item.logo_size }}{% endif %}">
-                                        {% endif %}
-                                    </div>
-                                    <div class="media-body">
-                                        <div class="profile-entry-title">{{ item.name }}</div>
-                                        <div class="text-muted small">{{ item.dept }}</div>
-                                        <div class="profile-entry-meta small">
-                                            <span>{{ item.position }}</span>
-                                            <span class="profile-entry-date"><em>{{ item.date }}</em></span>
-                                        </div>
-                                    </div>
-                                </li>
-                                {% endfor %}
-                            </ul>
-                        </section>
-                        {% endif %}
+                {% if site.data.profile.education %}
+                <section class="profile-timeline-section">
+                    <h6>Education</h6>
+                    <ul class="list-unstyled mb-0">
+                        {% for item in site.data.profile.education %}
+                        <li class="media profile-entry profile-entry-hero">
+                            <div class="profile-logo-wrap profile-logo-wrap-hero mr-3">
+                                {% if item.logos %}
+                                    {% for logo in item.logos %}
+                                    <img src="{{ logo | relative_url }}" alt="{{ item.name }}" class="profile-entry-logo profile-entry-logo-multi{% unless forloop.first %} ml-1{% endunless %}">
+                                    {% endfor %}
+                                {% elsif item.logo %}
+                                    <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" class="profile-entry-logo profile-entry-logo-hero{% if item.logo_size %} profile-entry-logo-{{ item.logo_size }}{% endif %}">
+                                {% endif %}
+                            </div>
+                            <div class="media-body">
+                                <div class="profile-entry-title">{{ item.name }}</div>
+                                <div class="text-muted small">{{ item.dept }}</div>
+                                <div class="profile-entry-meta small">
+                                    <span>{{ item.position }}</span>
+                                    <span class="profile-entry-date"><em>{{ item.date }}</em></span>
+                                </div>
+                            </div>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </section>
+                {% endif %}
 
-                        {% if site.data.profile.experience %}
-                        <section class="profile-timeline-section">
-                            <h6>Experience</h6>
-                            <ul class="list-unstyled mb-0">
-                                {% for item in site.data.profile.experience %}
-                                <li class="media profile-entry">
-                                    <div class="profile-logo-wrap mr-3">
-                                        {% if item.logos %}
-                                            {% for logo in item.logos %}
-                                            <img src="{{ logo | relative_url }}" alt="{{ item.name }}" class="profile-entry-logo profile-entry-logo-multi{% unless forloop.first %} ml-1{% endunless %}">
-                                            {% endfor %}
-                                        {% elsif item.logo %}
-                                            <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" class="profile-entry-logo{% if item.logo_size %} profile-entry-logo-{{ item.logo_size }}{% endif %}">
-                                        {% endif %}
+                {% if site.data.profile.experience %}
+                <section class="profile-timeline-section profile-experience-section">
+                    <h6>Experience</h6>
+                    <ul class="list-unstyled mb-0 row profile-experience-grid">
+                        {% for item in site.data.profile.experience %}
+                        <li class="col-lg-6 profile-experience-col">
+                            <div class="media profile-entry profile-entry-panel">
+                                <div class="profile-logo-wrap mr-3">
+                                    {% if item.logos %}
+                                        {% for logo in item.logos %}
+                                        <img src="{{ logo | relative_url }}" alt="{{ item.name }}" class="profile-entry-logo profile-entry-logo-multi{% unless forloop.first %} ml-1{% endunless %}">
+                                        {% endfor %}
+                                    {% elsif item.logo %}
+                                        <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" class="profile-entry-logo{% if item.logo_size %} profile-entry-logo-{{ item.logo_size }}{% endif %}">
+                                    {% endif %}
+                                </div>
+                                <div class="media-body">
+                                    <div class="profile-entry-title">{{ item.name }}</div>
+                                    <div class="text-muted small">{{ item.dept }}</div>
+                                    <div class="profile-entry-meta small">
+                                        <span>{{ item.position }}</span>
+                                        <span class="profile-entry-date"><em>{{ item.date }}</em></span>
                                     </div>
-                                    <div class="media-body">
-                                        <div class="profile-entry-title">{{ item.name }}</div>
-                                        <div class="text-muted small">{{ item.dept }}</div>
-                                        <div class="profile-entry-meta small">
-                                            <span>{{ item.position }}</span>
-                                            <span class="profile-entry-date"><em>{{ item.date }}</em></span>
-                                        </div>
-                                    </div>
-                                </li>
-                                {% endfor %}
-                            </ul>
-                        </section>
-                        {% endif %}
-                    </div>
-
-                    {% if site.data.profile.awards %}
-                    <div class="col-lg-5">
-                        <section class="profile-timeline-section profile-awards-section">
-                            <h6>Honors & Awards</h6>
-                            <ul class="list-unstyled small mb-0">
-                                {% for item in site.data.profile.awards %}
-                                <li class="profile-award-item">
-                                    <div class="profile-award-name">{{ item.name }}</div>
-                                    <div class="profile-award-date"><em>{{ item.date }}</em></div>
-                                </li>
-                                {% endfor %}
-                            </ul>
-                        </section>
-                    </div>
-                    {% endif %}
-                </div>
+                                </div>
+                            </div>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </section>
+                {% endif %}
             </div>
         </div>
     </div>
