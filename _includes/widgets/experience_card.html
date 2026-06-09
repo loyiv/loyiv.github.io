@@ -4,7 +4,7 @@
             <div class="card-body p-4">
                 <div class="row profile-split-row">
                     {% if site.data.profile.education %}
-                    <div class="col-lg-4 profile-split-col">
+                    <div class="col-lg-6 profile-split-col">
                         <section class="profile-timeline-section profile-education-section">
                             <h6>Education</h6>
                             <ul class="list-unstyled mb-0">
@@ -27,7 +27,9 @@
                                             {{ item.name }}
                                             {% endif %}
                                         </div>
+                                        {% if item.dept %}
                                         <div class="text-muted small">{{ item.dept }}</div>
+                                        {% endif %}
                                         <div class="profile-entry-meta profile-entry-meta-left small">
                                             <span>{{ item.position }}</span>
                                             <span class="profile-entry-date"><em>{{ item.date }}</em></span>
@@ -41,7 +43,7 @@
                     {% endif %}
 
                     {% if site.data.profile.experience %}
-                    <div class="col-lg-8 profile-split-col profile-experience-col-wrap">
+                    <div class="col-lg-6 profile-split-col profile-experience-col-wrap">
                         <section class="profile-timeline-section profile-experience-section">
                             <h6>Experience</h6>
                             <ul class="list-unstyled mb-0 profile-experience-list">
@@ -65,11 +67,15 @@
                                                 {{ item.name }}
                                                 {% endif %}
                                             </div>
+                                            {% if item.dept %}
                                             <div class="text-muted small">{{ item.dept }}</div>
+                                            {% endif %}
                                         </div>
                                         <div class="profile-entry-side">
                                             <div class="profile-entry-meta small">
+                                                {% if item.position %}
                                                 <span>{{ item.position }}</span>
+                                                {% endif %}
                                                 <span class="profile-entry-date"><em>{{ item.date }}</em></span>
                                             </div>
                                         </div>
