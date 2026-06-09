@@ -1,22 +1,7 @@
-# main links links
-main:
-  - title: "About Me"
-    url: "/#about-me"
-
-  - title: "News"
-    url: "/#-news"
-
-  - title: "Publications"
-    url: "/#-publications"
-
-  - title: "Honors and Awards"
-    url: "/#-honors-and-awards"
-
-  - title: "Educations"
-    url: "/#-educations"
-
-  - title: "Invited Talks"
-    url: "/#-invited-talks"
-
-  - title: "Internships"
-    url: "/#-internships"
+pages:
+# NOTE: `name` must match the `navbar_title` field in the page front matter
+# so the active navigation item is highlighted correctly.
+- name: Home
+  url: /
+- name: Publications
+  url: /publications

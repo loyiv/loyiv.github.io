@@ -1,0 +1,64 @@
+primary_name: "Youwei Liu"
+secondary_name: ""
+navbar_name: "Youwei Liu"
+
+positions:
+- name: Undergraduate Student, Central South University
+  logo: /assets/images/badges/csu-logo.png
+- name: Research Assistant, PolyU NLP Lab
+  logo: /assets/images/badges/polyunlp.png
+
+email: "loyiv5477@gmail.com"
+gscholar: lhIzhPkAAAAJ
+github: loyiv
+orcid: 0009-0005-5256-8161
+
+short_bio_text_justify: false
+short_bio: >-
+  <p>
+    I am an undergraduate at <strong>Central South University</strong>. I am currently a Research Assistant at
+    <a href="https://polyunlp.github.io/" target="_blank">The Hong Kong Polytechnic University (PolyU NLP Lab)</a>,
+    supervised by <a href="https://www4.comp.polyu.edu.hk/~cswjli/" target="_blank">Prof. Maggie Wenjie Li</a>.
+  </p>
+  <p>
+    My research focuses on long-horizon agent planning by integrating LLM agents, embodied agents,
+    reinforcement learning, and world models. I collaborate with
+    <a href="https://iwangjian.github.io/" target="_blank">Jian Wang</a> on agent research.
+  </p>
+
+portrait_url: /assets/images/photos/portrait.jpg
+
+education:
+- name: Central South University
+  logo: /assets/images/badges/csu-logo.png
+  dept: Data Science Excellence Talent Program
+  position: Undergraduate Student
+  date: Sep. 2023 - 2027 (expected)
+
+experience:
+- name: PolyU NLP Lab
+  logo: /assets/images/badges/polyunlp.png
+  dept: The Hong Kong Polytechnic University
+  position: Research Assistant
+  date: Apr. 2025 - Present
+- name: CUHK (Shenzhen) and KAUST
+  logo: /assets/images/badges/cuhk.png
+  dept: Visiting student supervised by Jinchao Xu
+  position: Research on multi-scale feature transmission in LLMs
+  date: Jul. 2024
+
+awards:
+- name: Outstanding Paper (Oral), Shenzhen Cup Math Modeling Challenge
+  date: Aug. 2024
+- name: First Prize, National Undergraduate Math Modeling Competition
+  date: Sep. 2024
+- name: First Prize, National Undergraduate Market Research Analysis (CP Cup)
+  date: May 2024
+- name: Second Prize, CSU Mathematical Modeling Competition
+  date: Jun. 2024
+- name: National-Level Innovation and Entrepreneurship Training Award
+  date: Apr. 2024
+- name: National Second Prize, Service Outsourcing Innovation and Entrepreneurship Competition
+  date: May 2025
+- name: Honorable Mention, Mathematical Contest in Modeling (MCM), COMAP-USA
+  date: Jan. 2025
