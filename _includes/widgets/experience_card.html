@@ -1,40 +1,63 @@
-<div class="row mt-3">
-    <div class="col">
-        <div class="card border-0 shadow-sm bg-white">
+<div class="row mt-3 mx-0">
+    <div class="col px-0">
+        <div class="card border-0 shadow-sm bg-white profile-card">
             <div class="card-body p-4">
-                <div class="row profile-split-row">
+                <div class="row profile-split-row mx-0">
+
                     {% if site.data.profile.education %}
-                    <div class="col-lg-6 profile-split-col">
+                    <div class="col-12 col-lg-6 profile-split-col px-0 px-lg-3">
                         <section class="profile-timeline-section profile-education-section">
                             <h6>Education</h6>
+
                             <ul class="list-unstyled mb-0">
                                 {% for item in site.data.profile.education %}
                                 <li class="media profile-entry profile-entry-education">
+
                                     <div class="profile-logo-wrap profile-logo-wrap-education mr-3">
                                         {% if item.logos %}
                                             {% for logo in item.logos %}
-                                            <img src="{{ logo | relative_url }}" alt="{{ item.name }}" class="profile-entry-logo profile-entry-logo-multi{% unless forloop.first %} ml-1{% endunless %}">
+                                            <img
+                                                src="{{ logo | relative_url }}"
+                                                alt="{{ item.name }}"
+                                                class="profile-entry-logo profile-entry-logo-multi{% unless forloop.first %} ml-1{% endunless %}"
+                                            >
                                             {% endfor %}
                                         {% elsif item.logo %}
-                                            <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" class="profile-entry-logo profile-entry-logo-education{% if item.logo_size %} profile-entry-logo-{{ item.logo_size }}{% endif %}">
+                                            <img
+                                                src="{{ item.logo | relative_url }}"
+                                                alt="{{ item.name }}"
+                                                class="profile-entry-logo profile-entry-logo-education{% if item.logo_size %} profile-entry-logo-{{ item.logo_size }}{% endif %}"
+                                            >
                                         {% endif %}
                                     </div>
-                                    <div class="media-body">
+
+                                    <div class="media-body profile-entry-main">
                                         <div class="profile-entry-title">
                                             {% if item.url %}
-                                            <a href="{{ item.url }}" target="_blank" class="text-body">{{ item.name }}</a>
+                                            <a href="{{ item.url }}" target="_blank" class="text-body">
+                                                {{ item.name }}
+                                            </a>
                                             {% else %}
                                             {{ item.name }}
                                             {% endif %}
                                         </div>
+
                                         {% if item.dept %}
-                                        <div class="text-muted small">{{ item.dept }}</div>
+                                        <div class="text-muted small">
+                                            {{ item.dept }}
+                                        </div>
                                         {% endif %}
+
                                         <div class="profile-entry-meta profile-entry-meta-left small">
+                                            {% if item.position %}
                                             <span>{{ item.position }}</span>
-                                            <span class="profile-entry-date"><em>{{ item.date }}</em></span>
+                                            {% endif %}
+                                            <span class="profile-entry-date">
+                                                <em>{{ item.date }}</em>
+                                            </span>
                                         </div>
                                     </div>
+
                                 </li>
                                 {% endfor %}
                             </ul>
@@ -43,49 +66,72 @@
                     {% endif %}
 
                     {% if site.data.profile.experience %}
-                    <div class="col-lg-6 profile-split-col profile-experience-col-wrap">
+                    <div class="col-12 col-lg-6 profile-split-col profile-experience-col-wrap px-0 px-lg-3">
                         <section class="profile-timeline-section profile-experience-section">
                             <h6>Experience</h6>
+
                             <ul class="list-unstyled mb-0 profile-experience-list">
                                 {% for item in site.data.profile.experience %}
                                 <li class="profile-experience-item">
+
                                     <div class="profile-entry profile-entry-panel profile-entry-experience">
+
                                         <div class="profile-logo-wrap profile-logo-wrap-experience">
                                             {% if item.logos %}
                                                 {% for logo in item.logos %}
-                                                <img src="{{ logo | relative_url }}" alt="{{ item.name }}" class="profile-entry-logo profile-entry-logo-multi{% unless forloop.first %} ml-1{% endunless %}">
+                                                <img
+                                                    src="{{ logo | relative_url }}"
+                                                    alt="{{ item.name }}"
+                                                    class="profile-entry-logo profile-entry-logo-multi{% unless forloop.first %} ml-1{% endunless %}"
+                                                >
                                                 {% endfor %}
                                             {% elsif item.logo %}
-                                                <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" class="profile-entry-logo{% if item.logo_size %} profile-entry-logo-{{ item.logo_size }}{% endif %}">
+                                                <img
+                                                    src="{{ item.logo | relative_url }}"
+                                                    alt="{{ item.name }}"
+                                                    class="profile-entry-logo{% if item.logo_size %} profile-entry-logo-{{ item.logo_size }}{% endif %}"
+                                                >
                                             {% endif %}
                                         </div>
+
                                         <div class="profile-entry-main">
                                             <div class="profile-entry-title">
                                                 {% if item.url %}
-                                                <a href="{{ item.url }}" target="_blank" class="text-body">{{ item.name }}</a>
+                                                <a href="{{ item.url }}" target="_blank" class="text-body">
+                                                    {{ item.name }}
+                                                </a>
                                                 {% else %}
                                                 {{ item.name }}
                                                 {% endif %}
                                             </div>
+
                                             {% if item.dept %}
-                                            <div class="text-muted small">{{ item.dept }}</div>
+                                            <div class="text-muted small">
+                                                {{ item.dept }}
+                                            </div>
                                             {% endif %}
                                         </div>
+
                                         <div class="profile-entry-side">
                                             <div class="profile-entry-meta small">
                                                 {% if item.position %}
                                                 <span>{{ item.position }}</span>
                                                 {% endif %}
-                                                <span class="profile-entry-date"><em>{{ item.date }}</em></span>
+                                                <span class="profile-entry-date">
+                                                    <em>{{ item.date }}</em>
+                                                </span>
                                             </div>
                                         </div>
+
                                     </div>
+
                                 </li>
                                 {% endfor %}
                             </ul>
                         </section>
                     </div>
                     {% endif %}
+
                 </div>
             </div>
         </div>
