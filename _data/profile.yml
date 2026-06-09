@@ -42,7 +42,9 @@ experience:
   position: Research Assistant
   date: Apr. 2025 - Present
 - name: CUHK (Shenzhen) and KAUST
-  logo: /assets/images/badges/cuhk.png
+  logos:
+    - /assets/images/badges/cuhk.png
+    - /assets/images/badges/kaust.png
   dept: Visiting student supervised by Jinchao Xu
   position: Research on multi-scale feature transmission in LLMs
   date: Jul. 2024
