@@ -3,10 +3,8 @@ secondary_name: ""
 navbar_name: "Youwei Liu"
 
 positions:
-- name: Undergraduate Student, Central South University
-  logo: /assets/images/badges/csu-logo.png
-- name: Research Assistant, PolyU NLP Lab
-  logo: /assets/images/badges/polyunlp.png
+- name: Passion for NLP
+- name: World Modeling for Agents
 
 email: "loyiv5477@gmail.com"
 gscholar: lhIzhPkAAAAJ
